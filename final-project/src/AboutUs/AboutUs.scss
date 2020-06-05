@@ -1,0 +1,43 @@
+.about-main {
+  .about-content {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .about-header {
+      font-size: 3rem;
+      font-family: "Courgette", cursive;
+      margin: 50px 0;
+      height: 75px;
+      text-align: center;
+      @media #{$tablet} {
+        font-size: 2.9rem;
+      }
+      @media #{$tablet-small} {
+        font-size: 2rem;
+      }
+      @media #{$mobile} {
+        font-size: 1.7rem;
+      }
+    }
+    .Landeen-img {
+      width: 960px;
+      align-self: center;
+    }
+    h2 {
+      display: flex;
+      justify-content: center;
+      font-size: 3.5rem;
+      font-family: "Roboto", sans-serif;
+      color: $Navy;
+    }
+    p {
+      display: flex;
+      align-self: center;
+      font-size: 2.8rem;
+      font-family: "Roboto", sans-serif;
+      margin: 25px 0;
+    }
+  }
+}

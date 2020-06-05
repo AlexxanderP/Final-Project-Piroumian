@@ -10,7 +10,7 @@ const OurServices = () => {
       <h1 className="Services-header">
         QUALIFIED Simi Valley AIR CONDITIONING SERVICES
       </h1>
-      <img className="landeen-img" src={LandeenPhoto1} alt="Porter Img" />
+      <img className="landeen-img" src={LandeenPhoto1} alt="Landeen Img" />
       <p>
         {" "}
         When the heat of summer is at its highest, you'll be glad you called
