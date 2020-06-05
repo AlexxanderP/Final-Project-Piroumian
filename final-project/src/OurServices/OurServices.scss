@@ -1,0 +1,46 @@
+.services-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .Services-header {
+    font-size: 4rem;
+    font-family: "Courgette", cursive;
+    margin: 50px 0;
+    height: 75px;
+    text-align: center;
+    @media #{$tablet} {
+      font-size: 2.9rem;
+    }
+    @media #{$tablet-small} {
+      font-size: 2rem;
+    }
+    @media #{$mobile} {
+      font-size: 1.7rem;
+    }
+  }
+  .landeen-img {
+    width: 960px;
+    align-self: center;
+  }
+  p {
+    display: flex;
+    align-self: center;
+    font-size: 3rem;
+    font-family: "Roboto", sans-serif;
+    width: 960px;
+    margin: 25px 0;
+  }
+
+  .services-list {
+    display: flex;
+    justify-content: center;
+    .service {
+      font-size: 2.5rem;
+
+      margin: 50px 10px;
+      font-family: "Roboto", sans-serif;
+      display: flex;
+      list-style: disc;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.Nav {
+  display: flex;
+  flex-direction: row;
+  @media #{$tablet-small} {
+    flex-direction: column;
+  }
+
+  .Logo {
+    font-size: 2.5rem;
+    width: 300px;
+    font-family: "Marck Script", cursive;
+    text-align: center;
+    text-decoration: none;
+
+    @media #{$tablet-small} {
+      align-self: center;
+      padding: 20px 0 0 0;
+      font-size: 5rem;
+    }
+  }
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px 0 15px 0;
+    @media #{$tablet-small} {
+      flex-direction: column;
+      align-items: center;
+      font-size: 3rem;
+      margin-top: 0px;
+      padding: 0px 0 15px 0;
+    }
+  }
+  .link {
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+    &:hover {
+      //   color: $Turquoise;
+    }
+    @media #{$tablet-small} {
+      margin: 15px 0 0 0;
+      border-top: 1px solid lightgray;
+      width: 100%;
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+  .link2 {
+    margin-right: 50px;
+    font-family: "Roboto", sans-serif;
+    &:hover {
+      //   color: $Turquoise;
+    }
+    @media #{$tablet-small} {
+      margin: 15px 0 0 0;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      width: 100%;
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+}

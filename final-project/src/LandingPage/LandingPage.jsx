@@ -1,7 +1,8 @@
 import React from "react";
 import Nav from "./Navigation/Nav";
 import CTA from "./CTA";
-import WhyChooseUs from "./WhyChooseUs";
+import AirScrubberContent from "./AirScrubberContent";
+import InTheNews from "./InTheNews";
 import Footer from "./Footer";
 
 class LandingPage extends React.Component {
@@ -11,7 +12,8 @@ class LandingPage extends React.Component {
         <div>
           <Nav />
           <CTA />
-          <WhyChooseUs />
+          <AirScrubberContent />
+          <InTheNews />
           <Footer />
         </div>
       </body>
